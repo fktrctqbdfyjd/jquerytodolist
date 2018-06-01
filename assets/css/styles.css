@@ -9,17 +9,10 @@
 body {
   font-family: "Roboto", sans-serif;
   /*gradient*/
-  background: #2bc0e4; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2bc0e4,
-    #eaecc6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2bc0e4,
-    #eaecc6
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 #container {
   margin: 100px auto;
@@ -72,7 +65,7 @@ li:nth-child(2n) {
   text-decoration: line-through;
 }
 span {
-  background: #e74c3c;
+  background: #FC5C7D;
   height: 40px;
   margin-right: 20px;
   text-align: center;
@@ -89,4 +82,15 @@ li:hover span {
 }
 .fa-trash-alt {
   padding-top: 10px;
+}
+
+button {
+  background-color:#FC5C7D;
+  padding: 4px 8px;
+  margin-top: 2px;
+  margin-left: 80%;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  border-radius: 2px;
+
 }

@@ -22,6 +22,12 @@ $("input[type='text']").keypress(function(event) {
   }
 });
 
+$("button").click(function(){
+  $("ul li").fadeOut(500, function(){
+    $(this).remove();
+  });
+});
+
 $(".fa-plus").click(function() {
   $("input[type='text']").fadeToggle();
 });
