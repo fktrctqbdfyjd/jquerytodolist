@@ -1,4 +1,7 @@
-build: https://todolist-ibminkfunb.now.sh/
-Simple todo list app
-jQuery/html/css
-//learning stuff and fixing bugs
+# Simple Todo App
+### https://fktrctqbdfyjd.github.io/jquerytodolist/
+* html
+* css
+* jQuery
+
+small education project
